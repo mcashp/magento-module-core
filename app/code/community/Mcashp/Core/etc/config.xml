@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mcashp_Core>
+            <version>1.0.0</version>
+        </Mcashp_Core>
+    </modules>
+    <global>
+        <helpers>
+            <mcashpcore>
+                <class>Mcashp_Core_Helper</class>
+            </mcashpcore>
+        </helpers>
+    </global>
+</config>

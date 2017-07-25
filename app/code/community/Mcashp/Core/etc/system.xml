@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <mcashp translate="label" module="mcashpcore">
+            <label>MCASHP</label>
+            <sort_order>1000</sort_order>
+        </mcashp>
+    </tabs>
+    <sections>
+        <mcashpcore translate="label" module="mcashpcore">
+            <label>General</label>
+            <tab>mcashp</tab>
+            <sort_order>0</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <webmaster translate="label" module="mcashpcore">
+                    <label>Webmaster</label>
+                    <comment><![CDATA[
+                    You need to have an MCASHP account on <a href="https://www.mcashp.com/register/850">https://www.mcashp.com/</a>.<br />
+                    If you need support, please send us a message in your MCASHP member area.<br />
+                    ]]></comment>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <api translate="label">
+                            <label>API key: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api>
+                        <wmid translate="label">
+                            <label>Webmaster ID: </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </wmid>
+                    </fields>
+                </webmaster>
+            </groups>
+        </mcashpcore>
+    </sections>
+</config>

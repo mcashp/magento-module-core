@@ -1,0 +1,2 @@
+MCASHP Magento Core module 
+==========================
