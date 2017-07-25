@@ -10,7 +10,7 @@
         <mcashpcore translate="label" module="mcashpcore">
             <label>General</label>
             <tab>mcashp</tab>
-            <sort_order>0</sort_order>
+            <sort_order>20</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
