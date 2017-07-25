@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mcashp_Core</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>MCASHP Magento basis integration</summary>
+    <description>MCASHP Magento basis integration</description>
+    <notes>initial version</notes>
+    <authors><author><name>MCASHP</name><user>mcashp</user><email>hilfe@mcashp.com</email></author></authors>
+    <date>2017-07-25</date>
+    <time>17:38:40</time>
+    <contents><target name="magecommunity"><dir name="Mcashp"><dir name="Core"><dir name="Helper"><file name="Data.php" hash="328fc451a7f87b132914dc9f7a270c5e"/></dir><dir name="etc"><file name="adminhtml.xml" hash="186702ad8671036528af44d7b7655320"/><file name="config.xml" hash="e4da5946898feaf6ddbeab0adc4df669"/><file name="system.xml" hash="a71ea698f60bf900c06a112068afc59e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mcashp_Core.xml" hash="96be7b940831b0b3dc6228c12e14b9b7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.6.0</min><max>7.1.0</max></php></required></dependencies>
+</package>
